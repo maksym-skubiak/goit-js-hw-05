@@ -1,8 +1,5 @@
 const getUsersWithFriend = (users, friendName) => {
-  return users
-    .filter((users) => users.friends.includes(friendName))
-    .map((users) => users.name);
-};
+  return users.fil
 
 const allUsers = [
   {
@@ -60,3 +57,4 @@ console.log(getUsersWithFriend(allUsers, "Goldie Gentry"));
 // ]
 
 console.log(getUsersWithFriend(allUsers, "Adrian Cross")); // []
+const 
